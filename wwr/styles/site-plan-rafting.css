@@ -1,0 +1,56 @@
+:root {
+    -- primary_color: 941100;
+    -- seconday_color: 33658A;
+    -- accent1_color: 86BBD8;
+    -- accent2_color: 2F4858;
+
+    --heading-font: '________', serif;
+    --paragrapg-font: '_________, serif;'
+
+    --nav-background-color:941100;
+    --nav-link-color: 33658A;
+    --nav-hover-link-color: 86BBD8;
+    --nav-hover-background-color:2F4858;
+}
+
+body{
+    f_____: var(--paragraph-font);
+    m_________: ________;
+    p_______: __________;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding:25px;
+}
+
+nav{
+    background-color: var(--nav-hover-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display:block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color)
+}
+
+nav a:hover{
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color)
+}
