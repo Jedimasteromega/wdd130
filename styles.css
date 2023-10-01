@@ -6,7 +6,9 @@
 main {
     max-width: 840 px;
 }
-
+body {
+	background-color: red;
+}
 aside {
     width: 20rem}
 
