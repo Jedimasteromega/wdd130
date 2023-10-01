@@ -21,7 +21,7 @@ aside img {
 
 main img{
     float: right;
-    width: 150px;
+    width: 1050px;
     height: auto;
 }
 
@@ -29,7 +29,7 @@ p {padding: 0;}
 
 footer{
     margin-top: 1em;
-    border-top: 1px solid #000;
+    border-top: 1px solid #c00606;
     text-align: center
 }
 
