@@ -12,7 +12,9 @@
     --nav-hover-link-color: 86BBD8;
     --nav-hover-background-color:2F4858;
 }
-
+body {
+	background-color: red;
+}
 body{
     f_____: var(--paragraph-font);
     m_________: ________;
