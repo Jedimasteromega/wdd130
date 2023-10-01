@@ -1,9 +1,8 @@
-@ import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap')
 :root {
-    -- primary_color: #941100;
-    -- seconday_color: #33658A;
-    -- accent1_color: #86BBD8;
-    -- accent2_color: #2F4858;
+    --primary-color:#941100;
+    --seconday_color: #33658A;
+    --accent1_color: #86BBD8;
+    --accent2_color: #2F4858;
 
     --heading-font: '________', serif;
     --paragrapg-font: '_________, serif;'
