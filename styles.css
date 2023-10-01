@@ -20,7 +20,7 @@ aside img {
 }
 
 main img{
-    float: right;
+    float: left;
     width: 200px;
     height: auto;
 }
