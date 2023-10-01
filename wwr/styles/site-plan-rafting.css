@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root {
     --primary-color:#941100;
     --seconday_color: #33658A;
@@ -14,9 +15,9 @@
 }
 body {
 	background-color: rgb(24, 212, 33);
-    f_____: var(--paragraph-font);
-    m_________: ________;
-    p_______: __________;
+    font: var(--paragraph-font);
+    max-width: 960 pixels;
+    padding: 20 pixels;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
