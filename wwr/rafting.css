@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color:#941100;
+    --seconday_color: #33658A;
+    --accent1_color: #86BBD8;
+    --accent2_color: #2F4858;
+
+    --heading-font: '________', serif;
+    --paragrapg-font: '_________, serif;'
+
+    --nav-background-color:#941100;
+    --nav-link-color: #33658A;
+    --nav-hover-link-color: #86BBD8;
+    --nav-hover-background-color:#2F4858;
+}
+
+h1, h2{
+    color:var(--primary-color)
+}
+
+
+body, html {
+    height: 100%;
+    color:var(--seconday_color)
+}
+p{
+    color:var(--seconday_color)
+}
+
+/* The hero image */
+.hero-image {
+  background-image:url("/wwr/images/rafting.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
