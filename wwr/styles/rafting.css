@@ -75,3 +75,7 @@ p{
   grid-template-columns: 1fr 10px 1fr 10px 1fr;
   justify-items: center;
 }
+.workers{
+  display:grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+}
