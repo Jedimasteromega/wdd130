@@ -83,3 +83,29 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.adventure{
+  width: 250px;
+  height: auto;
+}
+
+.columns {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.trips:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  background-color: #818d94;
+  color: var(--primary-color);
+}
