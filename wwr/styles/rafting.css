@@ -109,3 +109,34 @@ p{
   background-color: #818d94;
   color: var(--primary-color);
 }
+
+.tom{
+  width: 100%;
+}
+
+.columns_2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.bob:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newsletter{
+  position: relative;
+}
+.newsletter form{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #941100;
+}
+.form-item{
+  float: left;
+  clear: both;
+}
+
